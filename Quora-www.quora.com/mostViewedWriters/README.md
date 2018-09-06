@@ -8,7 +8,7 @@ More specifically:
 
 -A question can be assigned multiple topics;
 
-For example, the question "How many software engineers work at Google as of 2017?" is tagged with the topics "Silicon Valley", "Google", and "Software Engineering".
+(For example, the question "How many software engineers work at Google as of 2017?" is tagged with the topics "Silicon Valley", "Google", and "Software Engineering".)
 
 -An answer can get views.
 
