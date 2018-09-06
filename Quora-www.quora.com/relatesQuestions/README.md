@@ -7,6 +7,8 @@ Given the number of related questions n, an array that contains the estimated re
 
 Here's how the total expected time for question i with q related questions is calculated:
 
-1)Take the time ti that it will take Steve to read this question;
-2)Recursively calculate the expected_timej for each related question j without considering the ith question;
-3)Add to ti the sum of expected_timej for each j, divided by q, i.e. the answer will be equal to ti + sum(expected_timej) / q.
+-Take the time ti that it will take Steve to read this question;
+
+-Recursively calculate the expected_timej for each related question j without considering the ith question;
+
+-Add to ti the sum of expected_timej for each j, divided by q, i.e. the answer will be equal to ti + sum(expected_timej) / q.
