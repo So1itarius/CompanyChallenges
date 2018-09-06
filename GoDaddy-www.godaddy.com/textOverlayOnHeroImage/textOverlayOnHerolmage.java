@@ -35,7 +35,7 @@ public class textOverlayOnHerolmage {
                     lastRowLeftmostSum = sum;
                 }
                 else if (j == 0) {
-                // блок, котоырй нужно было изменить
+                // блок, который нужно было изменить
                     sum=0;
                     for (int y = i; y < i+height; ++y) {
                         sum += h.rowSum(y, 0, width);
